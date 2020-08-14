@@ -1,0 +1,84 @@
+<html>
+<head>
+<title>Registerform</title>
+</head>
+<body><table border="2" align="center">
+    <style>
+        body {
+          background-image: url('background.jfif');
+         background-size: cover;
+        }
+        </style>
+<form name="register" id="registeration" method="post" action="hello.html" onsubmit="return(validate());"  >
+<tr>
+<td colspan="2">
+<h1 align="center"><font face="Showcard Gothic" color="#00ffff"><marquee behavior="alternate" direction="left" scroll amount="5">Register Yourself</marquee></h1>
+</td>
+</tr>
+<tr>
+<td>
+  <font face="Showcard Gothic" color="#00ffff" size="6">
+Enter Your Name:</td></font>
+<td>
+  <font face="Showcard Gothic" color="#00ffff" size="6"> <input type="text" placeholder=" full name" name="name" id="firstname" value="" size="30"/></td></font>
+</tr>
+<tr>
+  <td>
+  <font face="Showcard Gothic" color="#00ffff" size="6">Enter Password: </td></font>
+<td>
+  <font face="Showcard Gothic" color="#00ffff" size="6"> <input type="password" placeholder="abcd$123"name="pwd1" id="initial_password" value="" /></font> </td>
+</tr>
+<tr>
+<td><font face="Showcard Gothic" color="#00ffff" size="6">
+Confirm Password: </td> <td><input type="password" placeholder="confirm"name="pwd2" id="confirmpassword" value=""  /></td></font>
+</tr>
+<tr>
+<td> <font face="Showcard Gothic" color="#00ffff" size="6">
+Contact Number:</font>
+</td>
+<td>
+<input type="number" name="number" id="no" value="" />
+</td>
+</tr>
+<tr>
+<td> <font face="Showcard Gothic" color="#00ffff" size="6">
+Email Address:<font>
+</td>
+<td>
+<input type="email" name="email" id="emailid" value="" />
+</td>
+</tr>
+<tr>
+<td> <font face="Showcard Gothic" color="#00ffff" size="6">
+Gender:</font>
+</td>
+<td><font face="Showcard Gothic" color="#00ffff" size="4">
+<input type="radio" name="gender" id="gender" value="m"  /> Male
+<input type="radio" name="gender" id="gender" value="o"  /> Other
+<input type="radio" name="gender" id="gender" value="f"  /> Female
+</font>
+</td>
+</tr>
+<tr>
+<td><font face="Showcard Gothic" color="#00ffff" size="6">
+choose your fileds:
+</td>
+<td><font face="Showcard Gothic" color="#00ffff" size="4">
+<input type="checkbox" id="nutrition chart" value="nutrition chart" />nutrition chart<br></br>
+<input type="checkbox" id="yoga" value="yoga" />yoga<br></br>
+<input type="checkbox"  id="workout" value="workout"  />workout<br></br>
+<input type="checkbox" id="weight loss" value="weight loss"  />weight loss<br></br>
+</font>
+</td>
+</tr>
+<tr>
+<td><th><font face="Showcard Gothic" color="#00ffff" size="6">
+<input type="reset" name="reset" id="reset" value="RESET" />
+<input type="submit" name="submit" id="submit" value="REGISTER"  />
+</font></td>
+</th>
+</tr>
+</table>
+</form>
+</body>
+</html>
